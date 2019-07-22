@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/hwclient.dir/hwclient.c.o  -o ../hwclient -lzmq 

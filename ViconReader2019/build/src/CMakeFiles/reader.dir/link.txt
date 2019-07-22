@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=gnu++11  -rdynamic CMakeFiles/reader.dir/reader.cpp.o CMakeFiles/reader.dir/message_helpers.cpp.o  -o ../reader -lzmq 

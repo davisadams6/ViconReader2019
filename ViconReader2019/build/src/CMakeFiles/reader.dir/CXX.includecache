@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/../include/message_helpers.h
+zmq.h
+-
+iostream
+-
+cstdlib
+-
+cstring
+-
+
+/home/tinker/ViconReader2019/src/message_helpers.cpp
+message_helpers.h
+/home/tinker/ViconReader2019/src/message_helpers.h
+
+/home/tinker/ViconReader2019/src/reader.cpp
+iostream
+-
+string
+-
+unistd.h
+-
+message_helpers.h
+/home/tinker/ViconReader2019/src/message_helpers.h
+fstream
+-
+

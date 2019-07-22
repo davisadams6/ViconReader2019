@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tinker/ViconReader2019/examples/hwclient.c
+zmq.h
+-
+string.h
+-
+stdio.h
+-
+unistd.h
+-
+
